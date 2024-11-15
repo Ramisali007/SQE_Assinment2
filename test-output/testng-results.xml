@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="14" total="22" passed="7" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-15T22:42:19 PKT" name="UtilityCalculatorTestSuite" finished-at="2024-11-15T22:42:19 PKT" duration-ms="274">
+    <groups>
+      <group name="parameterized">
+        <method signature="TextProcessorTest.testAreAnagramsParameterized(java.lang.String,java.lang.String)[pri:0, instance:test.TextProcessorTest@60bd273d]" name="testAreAnagramsParameterized" class="test.TextProcessorTest"/>
+        <method signature="TextProcessorTest.testReverseWordsParameterized(java.lang.String)[pri:0, instance:test.TextProcessorTest@60bd273d]" name="testReverseWordsParameterized" class="test.TextProcessorTest"/>
+      </group> <!-- parameterized -->
+      <group name="text">
+        <method signature="TextProcessorTest.testAreAnagrams(java.lang.String,java.lang.String,boolean)[pri:0, instance:test.TextProcessorTest@4efac082]" name="testAreAnagrams" class="test.TextProcessorTest"/>
+        <method signature="TextProcessorTest.testReverseWords(java.lang.String,java.lang.String)[pri:0, instance:test.TextProcessorTest@4efac082]" name="testReverseWords" class="test.TextProcessorTest"/>
+      </group> <!-- text -->
+    </groups>
+    <test started-at="2024-11-15T22:42:19 PKT" name="AdvancedCalculatorTests" finished-at="2024-11-15T22:42:19 PKT" duration-ms="10">
+    </test> <!-- AdvancedCalculatorTests -->
+    <test started-at="2024-11-15T22:42:19 PKT" name="GeometryTests" finished-at="2024-11-15T22:42:19 PKT" duration-ms="10">
+    </test> <!-- GeometryTests -->
+    <test started-at="2024-11-15T22:42:19 PKT" name="TextProcessorTests" finished-at="2024-11-15T22:42:19 PKT" duration-ms="116">
+      <class name="test.TextProcessorTest">
+        <test-method signature="testAreAnagrams(java.lang.String,java.lang.String,boolean)[pri:0, instance:test.TextProcessorTest@4efac082]" started-at="2024-11-15T22:42:19 PKT" name="testAreAnagrams" data-provider="anagramDataProvider" finished-at="2024-11-15T22:42:19 PKT" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[listen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[silent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAreAnagrams -->
+        <test-method signature="testAreAnagrams(java.lang.String,java.lang.String,boolean)[pri:0, instance:test.TextProcessorTest@4efac082]" started-at="2024-11-15T22:42:19 PKT" name="testAreAnagrams" data-provider="anagramDataProvider" finished-at="2024-11-15T22:42:19 PKT" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[triangle]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[integral]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAreAnagrams -->
+        <test-method signature="testAreAnagrams(java.lang.String,java.lang.String,boolean)[pri:0, instance:test.TextProcessorTest@4efac082]" started-at="2024-11-15T22:42:19 PKT" name="testAreAnagrams" data-provider="anagramDataProvider" finished-at="2024-11-15T22:42:19 PKT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[apple]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pale]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAreAnagrams -->
+        <test-method signature="testReverseWords(java.lang.String,java.lang.String)[pri:0, instance:test.TextProcessorTest@4efac082]" started-at="2024-11-15T22:42:19 PKT" name="testReverseWords" data-provider="reverseWordsDataProvider" finished-at="2024-11-15T22:42:19 PKT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello world]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[world hello]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReverseWords -->
+        <test-method signature="testReverseWords(java.lang.String,java.lang.String)[pri:0, instance:test.TextProcessorTest@4efac082]" started-at="2024-11-15T22:42:19 PKT" name="testReverseWords" data-provider="reverseWordsDataProvider" finished-at="2024-11-15T22:42:19 PKT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[open source projects]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[projects source open]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReverseWords -->
+        <test-method signature="testReverseWords(java.lang.String,java.lang.String)[pri:0, instance:test.TextProcessorTest@4efac082]" started-at="2024-11-15T22:42:19 PKT" name="testReverseWords" data-provider="reverseWordsDataProvider" finished-at="2024-11-15T22:42:19 PKT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestNG is awesome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[awesome is TestNG]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReverseWords -->
+      </class> <!-- test.TextProcessorTest -->
+    </test> <!-- TextProcessorTests -->
+    <test started-at="2024-11-15T22:42:19 PKT" name="ParameterizedTests" finished-at="2024-11-15T22:42:19 PKT" duration-ms="83">
+      <class name="test.TextProcessorTest">
+        <test-method signature="testAreAnagramsParameterized(java.lang.String,java.lang.String)[pri:0, instance:test.TextProcessorTest@60bd273d]" started-at="2024-11-15T22:42:19 PKT" name="testAreAnagramsParameterized" finished-at="2024-11-15T22:42:19 PKT" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[listen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[silent]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAreAnagramsParameterized -->
+        <test-method signature="testReverseWordsParameterized(java.lang.String)[pri:0, instance:test.TextProcessorTest@60bd273d]" started-at="2024-11-15T22:42:19 PKT" name="testReverseWordsParameterized" finished-at="2024-11-15T22:42:19 PKT" duration-ms="43" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello world]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [dlrow olleh] but found [world hello]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [dlrow olleh] but found [world hello]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at test.TextProcessorTest.testReverseWordsParameterized(TextProcessorTest.java:56)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReverseWordsParameterized -->
+      </class> <!-- test.TextProcessorTest -->
+    </test> <!-- ParameterizedTests -->
+  </suite> <!-- UtilityCalculatorTestSuite -->
+</testng-results>

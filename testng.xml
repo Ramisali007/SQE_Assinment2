@@ -1,0 +1,69 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UtilityCalculatorTestSuite" parallel="tests" thread-count="2">
+
+    <!-- Test Suite for AdvancedCalculator -->
+    <test name="AdvancedCalculatorTests">
+        <classes>
+            <class name="test.AdvancedCalculatorTest">
+                <methods>
+                    <include name="testGcd"/>
+                    <include name="testFibonacci"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- Test Suite for Geometry Tests -->
+    <test name="GeometryTests">
+        <classes>
+            <class name="test.GeometryTest">
+                <methods>
+                    <include name="testCalculateTriangleArea"/>
+                    <include name="testCircleCircumference"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- Test Suite for Text Processor -->
+    <test name="TextProcessorTests">
+        <classes>
+            <class name="test.TextProcessorTest">
+                <methods>
+                    <include name="testAreAnagrams"/>
+                    <include name="testReverseWords"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- Parameterized Tests Suite -->
+    <test name="ParameterizedTests" verbose="2">
+        <!-- Parameters for gcd, fibonacci, and text tests -->
+        <parameter name="gcdA" value="48"/>
+        <parameter name="gcdB" value="18"/>
+        <parameter name="fibonacciN" value="10"/>
+        <parameter name="anagramStr1" value="listen"/>
+        <parameter name="anagramStr2" value="silent"/>
+        <parameter name="sentence" value="hello world"/>
+
+        <classes>
+            <!-- Parameterized Test for AdvancedCalculator -->
+            <class name="test.AdvancedCalculatorTest">
+                <methods>
+                    <include name="testGcdParameterized"/>
+                    <include name="testFibonacciParameterized"/>
+                </methods>
+            </class>
+
+            <!-- Parameterized Test for TextProcessor -->
+            <class name="test.TextProcessorTest">
+                <methods>
+                    <include name="testAreAnagramsParameterized"/>
+                    <include name="testReverseWordsParameterized"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

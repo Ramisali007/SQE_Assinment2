@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [UtilityCalculatorTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="ParameterizedTests(failed)">
+    <parameter name="sentence" value="hello world"/>
+    <parameter name="gcdA" value="48"/>
+    <parameter name="gcdB" value="18"/>
+    <parameter name="anagramStr1" value="listen"/>
+    <parameter name="fibonacciN" value="10"/>
+    <parameter name="anagramStr2" value="silent"/>
+    <classes>
+      <class name="test.TextProcessorTest">
+        <methods>
+          <include name="testReverseWordsParameterized" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.TextProcessorTest -->
+    </classes>
+  </test> <!-- ParameterizedTests(failed) -->
+</suite> <!-- Failed suite [UtilityCalculatorTestSuite] -->
