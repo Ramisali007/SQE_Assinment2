@@ -1,1 +1,1 @@
-# SQE_Assinment2
+# SQE_Assignment
